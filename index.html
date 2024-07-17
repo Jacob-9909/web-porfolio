@@ -26,7 +26,48 @@
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-
+<style>
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.skills-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.skill {
+    margin: 0 20px;
+    text-align: center;
+}
+.certifications {
+    margin-top: 40px;
+    width: 80%;
+    max-width: 600px;
+}
+.certifications h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+.certifications ul {
+    list-style-type: none;
+    padding: 0;
+	padding-left: 20px; /* 들여쓰기 추가 */
+}
+.certifications ul li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	color: black; /* 글자색 검은색으로 설정 */
+}
+</style>
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 		<div class="container">
 			<a class="navbar-brand" href="index.html"><span>W</span>ooHyuckJeong</a>
